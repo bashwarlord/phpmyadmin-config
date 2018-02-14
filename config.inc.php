@@ -13,3 +13,5 @@ if (file_exists('/etc/phpmyadmin/config.user.inc.php')) {
     include('/etc/phpmyadmin/config.user.inc.php');
 }
 
+/* customize config */
+$cfg['NavigationDisplayServers'] = false;
